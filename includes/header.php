@@ -11,6 +11,11 @@
 	<meta name="author" content="Rihai Foundation">
 	<!-- Page Title -->
     <title><?php echo $pageTitle; ?></title>
+	<!-- Canonical & Open Graph -->
+	<link rel="canonical" href="https://www.rihaifoundation.com/">
+	<meta property="og:url" content="https://www.rihaifoundation.com/">
+	<meta property="og:site_name" content="Rihai Foundation">
+
 	<!-- Favicon Icon -->
 	<link rel="shortcut icon" type="image/x-icon" href="images/logo/favicon.ico">
     <!-- Google Fonts Css-->
