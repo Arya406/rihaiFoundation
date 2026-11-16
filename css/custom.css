@@ -579,7 +579,7 @@ header.main-header .header-sticky.active{
 
 .main-menu ul li a:hover,
 .main-menu ul li a:focus{
-	color: var(--accent-color);
+	color: #FFD54F !important;
 }
 
 .main-menu ul ul{
@@ -11630,3 +11630,84 @@ header.main-header .header-sticky.active{
 	color: var(--white-color);
 }
 /* Donate Help Call End */
+/* ==========================================================================
+   GLOBAL HIGH-CONTRAST HOVER PROTECTION (EMAIL, PHONE, NAVBAR, FOOTER)
+   ========================================================================== */
+
+/* 1. Header Navigation Hover */
+.main-menu ul li a:hover,
+.main-menu ul li a:focus,
+header.main-header .header-sticky.active .main-menu ul li a:hover,
+header.main-header .header-sticky.active .main-menu ul li a:focus{
+	color: #FFD54F !important;
+}
+
+/* 2. All Email and Phone Links on Dark Backgrounds & Footer */
+.dark-section a[href^="mailto:"],
+.dark-section a[href^="tel:"],
+.main-footer a[href^="mailto:"],
+.main-footer a[href^="tel:"],
+.footer-contact-item-content p,
+.footer-contact-item-content p a{
+	color: #ffffff !important;
+	transition: all 0.3s ease-in-out;
+}
+
+.dark-section a[href^="mailto:"]:hover,
+.dark-section a[href^="tel:"]:hover,
+.main-footer a[href^="mailto:"]:hover,
+.main-footer a[href^="tel:"]:hover,
+.footer-contact-item-content p a:hover,
+.footer-contact-item-content p a:focus,
+.footer-contact-item:hover .footer-contact-item-content p a{
+	color: #FFD54F !important;
+	text-decoration: underline !important;
+}
+
+.footer-contact-item:hover .footer-contact-item-content h3{
+	color: #FFD54F !important;
+}
+
+/* 3. Footer Navigation Links & Bullets */
+.main-footer .footer-links ul li a{
+	color: #ffffff !important;
+	transition: all 0.3s ease-in-out;
+}
+
+.main-footer .footer-links ul li a:hover,
+.main-footer .footer-links ul li a:focus{
+	color: #FFD54F !important;
+	text-decoration: underline !important;
+}
+
+.main-footer .footer-links ul li::marker{
+	color: #FFD54F !important;
+}
+
+/* 4. Contact Us Page Info Cards */
+.contact-info-content ul li a{
+	color: var(--primary-color) !important;
+	font-weight: 600;
+	transition: all 0.3s ease-in-out;
+}
+
+.contact-info-content ul li a:hover,
+.contact-info-content ul li a:focus,
+.contact-info-item:hover .contact-info-content ul li a{
+	color: #111111 !important;
+	text-decoration: underline !important;
+}
+
+/* 5. Why Choose Us Box Call Link */
+.why-choose-contact-content p a{
+	color: var(--primary-color) !important;
+	font-weight: 600;
+	transition: all 0.3s ease-in-out;
+}
+
+.why-choose-contact-content p a:hover,
+.why-choose-contact-content p a:focus,
+.why-choose-contact-box:hover .why-choose-contact-content p a{
+	color: #111111 !important;
+	text-decoration: underline !important;
+}
