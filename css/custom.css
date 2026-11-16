@@ -2453,7 +2453,7 @@ header.main-header .header-sticky.active{
 .what-we-nav ul li .nav-link.active,
 .what-we-nav ul li .nav-link:hover{
 	background-color: var(--accent-color);
-	color: var(--primary-color);
+	color: var(--white-color);
 }
 
 .what-we-item{
@@ -2988,7 +2988,7 @@ header.main-header .header-sticky.active{
 
 .post-item-tag a:hover{
 	background-color: var(--accent-color);
-	color: var(--primary-color);
+	color: var(--white-color);
 }
 
 .post-item-body-content{
@@ -3086,11 +3086,12 @@ header.main-header .header-sticky.active{
 }
 
 .footer-links ul li a:hover{
-	color: var(--accent-color);
+	color: #FFD54F;
+	text-decoration: underline;
 }
 
 .footer-links ul li::marker{
-	color: var(--accent-color);
+	color: #FFD54F;
 }
 
 .footer-location-info{
@@ -3149,8 +3150,8 @@ header.main-header .header-sticky.active{
 }
 
 .footer-social-links ul li a:hover{
-	background-color: var(--accent-color);
-	border-color: var(--accent-color);
+	background-color: var(--white-color);
+	border-color: var(--white-color);
 }
 
 .footer-social-links ul li a i{
@@ -3241,7 +3242,8 @@ header.main-header .header-sticky.active{
 	position: relative;
 	width: 50px;
 	height: 50px;
-	background-color: var(--accent-color);
+	background-color: rgba(255, 255, 255, 0.12);
+	border: 1px solid var(--dark-divider-color);
 	border-radius: 50%;
 	display: flex;
 	justify-content: center;
@@ -3273,6 +3275,11 @@ header.main-header .header-sticky.active{
 	width: 100%;
 	max-width: 24px;
 	z-index: 1;
+	transition: all 0.4s ease-in-out;
+}
+
+.footer-contact-item:hover .icon-box img{
+	filter: brightness(0) saturate(100%) invert(34%) sepia(45%) saturate(1412%) hue-rotate(333deg) brightness(88%) contrast(89%);
 }
 
 .footer-contact-item-content{
@@ -3295,7 +3302,8 @@ header.main-header .header-sticky.active{
 }
 
 .footer-contact-item-content p a:hover{
-	color: var(--accent-color);
+	color: #FFD54F;
+	text-decoration: underline;
 }
 
 .footer-copyright-text{
@@ -3368,6 +3376,11 @@ header.main-header .header-sticky.active{
 
 .page-header-box ol li.breadcrumb-item a{
     color: inherit;
+    transition: all 0.3s ease-in-out;
+}
+
+.page-header-box ol li.breadcrumb-item a:hover{
+    color: #FFD54F;
 }
 
 .page-header-box ol .breadcrumb-item+.breadcrumb-item::before{
@@ -3751,7 +3764,7 @@ header.main-header .header-sticky.active{
 .team-social-list ul li a:hover{
 	background-color: var(--accent-color);
 	border-color: var(--accent-color);
-	color: var(--primary-color);
+	color: var(--white-color);
 }
 
 .team-social-list ul li a i{
@@ -4040,7 +4053,8 @@ header.main-header .header-sticky.active{
 }
 
 .sidebar-cta-contact-info h3 a:hover{
-	color: var(--accent-color);
+	color: #FFD54F;
+	text-decoration: underline;
 }
 
 .page-single-image{
@@ -5227,7 +5241,8 @@ header.main-header .header-sticky.active{
 }
 
 .contact-info-content ul li a:hover{
-	color: var(--accent-color);
+	color: #5c1e12;
+	text-decoration: underline;
 }
 
 .contact-image-form-box{
@@ -8276,8 +8291,8 @@ header.main-header .header-sticky.active{
 }
 
 .footer-social-links-prime ul li a:hover{
-	background-color: var(--accent-color);
-	border-color: var(--accent-color);
+	background-color: var(--white-color);
+	border-color: var(--white-color);
 }
 
 .footer-social-links-prime ul li a i{
@@ -8329,7 +8344,7 @@ header.main-header .header-sticky.active{
 }
 
 .footer-links-prime ul li a:hover{
-	color: var(--accent-color);
+	color: #FFD54F;
 }
 
 .footer-contact-box-prime{
@@ -8383,7 +8398,7 @@ header.main-header .header-sticky.active{
 }
 
 .footer-contact-box-prime ul li a:hover{
-	color: var(--accent-color);
+	color: #FFD54F;
 }
 
 .footer-copyright-prime{
@@ -10627,7 +10642,7 @@ header.main-header .header-sticky.active{
 }
 
 .footer-links-ultra ul li::marker{
-	color: var(--accent-color);
+	color: #FFD54F;
 }
 
 .footer-links-ultra ul li a{
@@ -10636,7 +10651,7 @@ header.main-header .header-sticky.active{
 }
 
 .footer-links-ultra ul li a:hover{
-	color: var(--accent-color);
+	color: #FFD54F;
 }
 
 .footer-contact-info-ultra{
@@ -10679,7 +10694,7 @@ header.main-header .header-sticky.active{
 }
 
 .footer-contact-item-content-ultra p a:hover{
-	color: var(--accent-color);
+	color: #FFD54F;
 }
 
 .footer-copyright-ultra{
@@ -10718,7 +10733,7 @@ header.main-header .header-sticky.active{
     position: absolute;
     top: 50%;
     right: -18px;
-    background: var(--accent-color);
+    background: #FFD54F;
     border-radius: 100px;
     transform: translateY(-50%);
     width: 6px;
@@ -10735,7 +10750,7 @@ header.main-header .header-sticky.active{
 }
 
 .footer-privacy-policy-ultra ul li a:hover{
-	color: var(--accent-color);
+	color: #FFD54F;
 }
 
 @media only screen and (max-width: 1440px){
