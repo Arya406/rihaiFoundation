@@ -718,19 +718,24 @@ header.main-header .header-sticky.active{
 	font-size: 16px;
 	font-weight: 600;
 	text-transform: capitalize;
-	padding: 7px 20px;
-	color: var(--primary-color);
+	padding: 12px 20px;
+	color: #ffffff !important;
 	line-height: normal;
 	margin: 0;
 	border-radius: 0 !important;
-	transition: all 0.3s ease-in-out;
+	border-bottom: 1px solid rgba(255, 255, 255, 0.12);
+	transition: all 0.2s ease-in-out;
+}
+
+.slicknav_nav li:last-child a{
+	border-bottom: none;
 }
 
 .slicknav_nav a:hover,
 .slicknav_nav a:focus,
 .slicknav_nav .slicknav_row:hover{
-	background-color: transparent;
-	color: var(--white-color);
+	background-color: rgba(0, 0, 0, 0.15) !important;
+	color: #ffffff !important;
 }
 
 .slicknav_menu ul ul li a{
